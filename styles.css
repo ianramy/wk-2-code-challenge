@@ -1,0 +1,106 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 0 5px;
+}
+
+input {
+    flex: 1;
+    font-size: 1rem;
+}
+
+button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color:whitesmoke;
+}
+
+.purchased {
+    text-decoration: line-through;
+    background-color: none;
+}
+
+#clearList {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    background-color:  rgb(217, 216, 216);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#clearList:hover {
+    background-color: red;
+}
+
+.item-text {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.edit-button, .delete-button {
+    background-color:  rgb(217, 216, 216);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.edit-button:hover {
+    background-color: gray;
+}
+
+.delete-button {
+    background-color: rgb(217, 216, 216);
+}
+
+.delete-button:hover {
+    background-color: red;
+}
